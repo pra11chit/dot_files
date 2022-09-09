@@ -1,0 +1,2 @@
+(()=>{const e=document.createElement("meta");e.name="k6-browser-recorder",e.content=JSON.stringify({version:"0.6.2",name:"k6 Browser Recorder",platform:"chrome"}),document.head.appendChild(e)})();
+//# sourceMappingURL=inject-extension-meta.js.map

@@ -1,0 +1,6 @@
+2022/09/09-14:37:09.218 3 Reusing MANIFEST /home/pratikchitode/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/09/09-14:37:09.219 3 Recovering log #33
+2022/09/09-14:37:09.219 3 Reusing old log /home/pratikchitode/.config/google-chrome/Default/Local Storage/leveldb/000033.log 
+2022/09/09-14:39:16.935 5 Level-0 table #36: started
+2022/09/09-14:39:17.003 5 Level-0 table #36: 15766 bytes OK
+2022/09/09-14:39:17.038 5 Delete type=0 #33

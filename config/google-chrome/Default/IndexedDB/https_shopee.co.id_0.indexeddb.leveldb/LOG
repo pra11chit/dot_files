@@ -1,0 +1,14 @@
+2022/09/08-23:57:16.469 d11 Reusing MANIFEST /home/pratikchitode/.config/google-chrome/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/08-23:57:16.469 d11 Recovering log #22
+2022/09/08-23:57:16.471 d11 Reusing old log /home/pratikchitode/.config/google-chrome/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/000022.log 
+2022/09/08-23:57:16.471 d11 Delete type=2 #21
+2022/09/08-23:57:16.877 b15 Level-0 table #27: started
+2022/09/08-23:57:16.900 b15 Level-0 table #27: 105478 bytes OK
+2022/09/08-23:57:16.934 b15 Delete type=0 #22
+2022/09/08-23:57:16.934 a99 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 2143 : 1
+2022/09/08-23:57:16.934 a99 Compacting 1@0 + 1@1 files
+2022/09/08-23:57:16.957 a99 Generated table #28@0: 787 keys, 25494 bytes
+2022/09/08-23:57:16.957 a99 Compacted 1@0 + 1@1 files => 25494 bytes
+2022/09/08-23:57:17.468 a99 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/09/08-23:57:17.468 a99 Delete type=2 #27
+2022/09/08-23:57:17.469 a99 Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 2143 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)

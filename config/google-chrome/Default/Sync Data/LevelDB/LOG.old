@@ -1,0 +1,6 @@
+2022/09/09-14:37:09.219 2e577 Reusing MANIFEST /home/pratikchitode/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/09/09-14:37:09.219 2e577 Recovering log #34
+2022/09/09-14:37:09.221 2e577 Reusing old log /home/pratikchitode/.config/google-chrome/Default/Sync Data/LevelDB/000034.log 
+2022/09/09-14:38:24.550 2e577 Level-0 table #38: started
+2022/09/09-14:38:24.584 2e577 Level-0 table #38: 94818 bytes OK
+2022/09/09-14:38:24.618 2e577 Delete type=0 #34

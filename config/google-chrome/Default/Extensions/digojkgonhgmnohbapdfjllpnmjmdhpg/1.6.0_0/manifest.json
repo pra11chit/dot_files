@@ -1,0 +1,27 @@
+{
+   "author": "Procwise BV",
+   "background": {
+      "persistent": false,
+      "scripts": [ "background-script.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content-script.js" ],
+      "matches": [ "https://*.proctorexam.com/*" ]
+   } ],
+   "description": "Lets you share your screen when taking an online exam on ProctorExam - https://www.proctorexam.com",
+   "homepage_url": "https://proctorexam.com/",
+   "icons": {
+      "128": "logo128.png",
+      "16": "logo16.png",
+      "48": "logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqmwo+u1BBE+y1lIjVJpcAuI9G5Arb8SdGbrpBsgGVdNXszA2mcwOjeQZpsCLSD4UQld6Lp567NJxdvJGYVSrQZQG17g10bE/FzVDvacvQOHr9wNI4Tu2OJAILUQlQBxT8SZ2oCiO8c38OA6f+freMH7JFhjcn/ckFhKAjHNORevBNdNJBdLc9Q8uGy7+I5/34/SlqKTrT5/eslpbv6PwnQgss5XS/s7PYu1PYS4thtzhAceXPwtBeP4VCoPcR7MtGOQuzT4XfXra/KtU4ughg6d830w6wPz8xB43tkPmcDVoIQ7uxDWLQPTpC7p6uS/XeH2PjAJtBBFUFAWTXpjRSQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "34",
+   "name": "ProctorExam Screen Sharing",
+   "permissions": [ "desktopCapture", "activeTab", "tabs", "https://*.proctorexam.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.0",
+   "web_accessible_resources": [ "icon.png" ]
+}

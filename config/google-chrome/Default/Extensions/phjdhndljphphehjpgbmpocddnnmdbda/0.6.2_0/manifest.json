@@ -1,0 +1,52 @@
+{
+   "author": "Load Impact",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "32": "images/app-icon@32.png",
+         "48": "images/app-icon@48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "k6 Browser Recorder"
+   },
+   "commands": {
+      "toggle-recording": {
+         "description": "Toggle start stop recording",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+E"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "inject-extension-meta.js" ],
+      "matches": [ "http://app.dev.k6.io:9000/*", "https://app.staging.k6.io/*", "https://app.k6.io/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://api.k6.io; object-src 'self'",
+   "description": "Record k6 scripts right from the browser, automatically uploaded to your k6.io cloud account.",
+   "externally_connectable": {
+      "matches": [ "*://*.k6.io/*" ]
+   },
+   "homepage_url": "https://k6.io/",
+   "icons": {
+      "128": "images/app-icon@128.png",
+      "32": "images/app-icon@32.png",
+      "48": "images/app-icon@48.png",
+      "64": "images/app-icon@64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApmz6JB7VjlBJ7Ep8BSXRTtaZj4tpEQPbgW0Zj+peZaudpwkI/yNddtUVEitRpmvuiT6kTS26Tvh6M6fFzD4NCZv4C0xRbdUejq3OyNZgcvp0N1i/ZgKUvEJWKqLxfiEZeaF/UQKL8k5IxrYR9jFJvQscRbpIzcTKAlm/7K69sR3MY9L4JOqsbTHKBHwafbCJCwZcAi/IH2XeVWL8tCyGFeseL1aDTc4/mjDy7pO+jPg2IRazYGqXOX8ILelJKWwZHVxmjR7DkXffAcb3cKqVIptPjPCbVNvr4Llph5VJtsdToAWu+sI7kO7mp05iQk4C1QcFp1R5Qp74UEpMvS+7vQIDAQAB",
+   "manifest_version": 2,
+   "name": "k6 Browser Recorder",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "debugger", "browsingData", "http://*/*", "https://*/*", "storage", "tabs", "unlimitedStorage", "webRequest", "webNavigation", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.2",
+   "web_accessible_resources": [ "inject-data.js", "inject-extension-meta.js", "background.map.js", "popup.map.js" ]
+}

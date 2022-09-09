@@ -1,0 +1,18 @@
+2022/09/09-16:24:39.500 2f1ab Reusing MANIFEST /home/pratikchitode/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/09/09-16:24:39.500 2f1ab Recovering log #37
+2022/09/09-16:24:39.501 2f1ab Reusing old log /home/pratikchitode/.config/google-chrome/Default/Sync Data/LevelDB/000037.log 
+2022/09/09-16:44:44.216 2f7c0 Level-0 table #41: started
+2022/09/09-16:44:44.268 2f7c0 Level-0 table #41: 95677 bytes OK
+2022/09/09-16:44:44.302 2f7c0 Delete type=0 #37
+2022/09/09-16:44:44.302 2f7c0 Compacting 4@0 + 1@1 files
+2022/09/09-16:44:44.339 2f7c0 Generated table #42@0: 11308 keys, 423956 bytes
+2022/09/09-16:44:44.339 2f7c0 Compacted 4@0 + 1@1 files => 423956 bytes
+2022/09/09-16:44:44.373 2f7c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/09/09-16:44:44.373 2f7c0 Delete type=2 #35
+2022/09/09-16:44:44.373 2f7c0 Delete type=2 #32
+2022/09/09-16:44:44.373 2f7c0 Delete type=2 #41
+2022/09/09-16:44:44.373 2f7c0 Delete type=2 #38
+2022/09/09-16:44:44.373 2f7c0 Delete type=2 #30
+2022/09/09-17:36:41.694 3ab55 Level-0 table #44: started
+2022/09/09-17:36:41.779 3ab55 Level-0 table #44: 104691 bytes OK
+2022/09/09-17:36:41.847 3ab55 Delete type=0 #40

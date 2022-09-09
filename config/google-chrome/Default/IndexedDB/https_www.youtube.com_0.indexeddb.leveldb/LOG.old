@@ -1,0 +1,6 @@
+2022/09/09-11:58:09.135 1321b Creating DB /home/pratikchitode/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2022/09/09-11:58:09.237 1321b Reusing MANIFEST /home/pratikchitode/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/09-12:27:37.895 1af91 Level-0 table #5: started
+2022/09/09-12:27:37.930 1af91 Level-0 table #5: 339318 bytes OK
+2022/09/09-12:27:37.964 1af91 Delete type=0 #3
+2022/09/09-12:27:37.965 1af91 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
